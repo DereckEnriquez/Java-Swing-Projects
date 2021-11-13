@@ -1,0 +1,101 @@
+/**
+this is a code suggestion that applies solid principles -E1
+
+public class StartGame {
+
+        public GameFrame gameframe;
+        private SoundEffect soundEfecct;
+        private KeyAdapter myKeyAdapter;
+        public Snake snake;
+    }
+//import JFrame normally
+
+    private static class Jpanel {
+
+        public Jpanel() {
+        }
+    }
+
+    private static class GameFrame {
+
+        private Jpanel panel;
+
+        public GameFrame() {
+        }
+
+        public void setFoodRandom() {
+        }
+
+        public JPanel getPanel() {
+            return null;
+        }
+
+        public interface SoundEffect {
+
+            public void start();
+        }
+
+        public class StartEffect implements SoundEffect {
+
+            @Override
+            public void start() {
+            }
+
+            public void startEffect() {
+            }
+        }
+
+        public class HitEffect implements SoundEffect {
+
+            @Override
+            public void start() {
+            }
+
+            public void hitEffect() {
+            }
+
+        }
+
+        public class GameOverEffect implements SoundEffect {
+
+            @Override
+            public void start() {
+            }
+
+            public void GameOverEffect() {
+            }
+        }
+
+        private static class KeyAdapter {
+
+            public KeyAdapter() {
+            }
+            //implementacion
+        }
+
+    }
+
+    public class Snake {
+
+        private int bodyParts;
+        public int puntos;
+
+        public Snake() {
+        }
+
+        public char move() {
+            return 0;
+        }
+
+        public Comida eat() {
+            Comida Comida = null;
+            return Comida;
+        }
+        
+        public boolean checkCollision(){
+            return false;
+            //implementation
+        }
+    }
+    
+**/
